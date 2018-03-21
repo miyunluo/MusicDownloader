@@ -87,10 +87,6 @@ func WriteStringToFile(filepath, s string) error {
 	return nil
 }
 
-func cutPrefix(s string, pos int) (string, string) {
-	return s[0:pos], s[pos:]
-}
-
 func qm_song(url string) {
 	response, err := DownloadString(url, nil)
 	if(err != nil){
