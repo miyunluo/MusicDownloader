@@ -1,0 +1,1 @@
+Collection of music getter.
